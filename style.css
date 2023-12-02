@@ -1,0 +1,249 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+
+nav {
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0%;
+    top: 0px;
+    z-index: 1;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+}
+
+section div {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: khaki;
+}
+
+section{
+margin-top: 20px;
+display: grid;
+grid-template-columns:25% 25% 25% 25% ;
+grid-template-columns:repeat(4,1fr) ;
+grid-template-rows: 100px;
+gap: 10px;
+}
+
+
+body {
+    height: 2000px;
+}
+
+.box-1 {
+    /* width: 200px; */
+    /* height: 200px; */
+    /* background-color: crimson; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: white; */
+    /* position: relative; */
+    /* top: 200px; */
+    /* left: 0px; */
+}
+
+/* .box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    position: absolute;
+    top: 100px;
+    top: 0px;
+    bottom: 200px;
+    left: 360px;
+} */
+
+.box-3 {
+    /* width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* top: 200px; */
+    /* bottom: 713px; */
+    /* left: 230px; */
+    /* right: 200px; */
+    /* right: 50px; */
+}
+
+/* .boww {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    left: 1845px;
+    top: 500px;
+
+
+} */
+
+
+
+
+
+
+
+
+.box-relative{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    position: relative;
+    top: 270px;
+}
+
+
+
+
+.boxx-1 {
+ 
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    /* right:50%; */
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%) ;
+    /* z-index: 2; */
+    /* left: 0%; */
+    /* left: 300px; */
+    /* right: 150px;   Bu hato Ishlameydi */
+    /* bottom: 3000px; Bu hato Ishlameydi */
+}
+
+
+/* .boxx-1{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    margin-top: 50px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    bottom: 100px;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dis {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+
+/* h1 {
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration: underline white;
+} */
+
+/* .btn1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    align-content:end;
+} */
+
+/* .btn {
+    padding: 8px 62px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    cursor: grab;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 1.1s ease;
+}
+
+.inline {
+    display: inline;
+}
+
+.blok {
+    display: block;
+}
+
+.btn:hover {
+    background-color: red;
+    border: solid rgb(14, 45, 221);
+    color: black;
+    padding: 8px 26px;
+}
+
+.boxx {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+} 
+
+.box11 {
+    display: inline-block;
+    background-color: crimson;
+    width: 400px;
+    height: 190px;
+    padding: 20px;
+    border: 10px solid yellow ;
+    margin-top:100px ;
+    margin-bottom: 100px;
+
+} */
+
+/* .box2 {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background: rgb(236, 71, 104);
+    border: 9px yellow solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
